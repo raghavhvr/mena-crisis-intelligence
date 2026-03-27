@@ -1,0 +1,2032 @@
+{
+  "fetched_at": "2026-03-27T06:06:44.585131+00:00",
+  "dates": [
+    "Mar 20",
+    "Mar 21",
+    "Mar 22",
+    "Mar 23",
+    "Mar 24",
+    "Mar 25",
+    "Mar 26",
+    "Mar 27"
+  ],
+  "categories": {
+    "escapism": {
+      "label": "Escapism & Entertainment",
+      "icon": "\u25c8",
+      "color": "#B0F467",
+      "hypothesis": "Stress drives people toward distraction and comfort content",
+      "ramadan_only": false,
+      "signals": [
+        "gaming",
+        "streaming",
+        "humour",
+        "beauty"
+      ]
+    },
+    "crisis_awareness": {
+      "label": "News & Crisis Awareness",
+      "icon": "\u25ce",
+      "color": "#5465FF",
+      "hypothesis": "Crisis triggers spike in news consumption and information seeking",
+      "ramadan_only": false,
+      "signals": [
+        "breaking_news",
+        "crisis_topics",
+        "war_news",
+        "flight_searches",
+        "fact_checking",
+        "social_news"
+      ]
+    },
+    "economic_anxiety": {
+      "label": "Economic Anxiety",
+      "icon": "\u25c7",
+      "color": "#FCFE67",
+      "hypothesis": "Financial stress changes search and purchase intent signals",
+      "ramadan_only": false,
+      "signals": [
+        "price_comparison",
+        "discounts",
+        "budgeting",
+        "inflation",
+        "panic_buying",
+        "panic_selling"
+      ]
+    },
+    "behavioral_shifts": {
+      "label": "Behavioral Shifts",
+      "icon": "\u25d0",
+      "color": "#93DFE3",
+      "hypothesis": "Crisis changes how people shop, move and spend time",
+      "ramadan_only": false,
+      "signals": [
+        "food_delivery",
+        "online_shopping",
+        "home_improvement",
+        "travel"
+      ]
+    },
+    "wellness": {
+      "label": "Wellness & Mental Health",
+      "icon": "\u25c9",
+      "color": "#00DBEE",
+      "hypothesis": "Prolonged stress surfaces as wellness and mental health interest",
+      "ramadan_only": false,
+      "signals": [
+        "mental_health",
+        "meditation",
+        "fitness",
+        "sleep",
+        "therapy"
+      ]
+    },
+    "social_community": {
+      "label": "Social & Community",
+      "icon": "\u25c6",
+      "color": "#788BFF",
+      "hypothesis": "Crisis drives community-seeking and prosocial behavior",
+      "ramadan_only": false,
+      "signals": [
+        "charity",
+        "volunteering",
+        "community"
+      ]
+    },
+    "ramadan": {
+      "label": "Ramadan",
+      "icon": "\u263d",
+      "color": "#FCFE67",
+      "hypothesis": "Ramadan shifts consumption patterns \u2014 iftar, late-night, Eid prep",
+      "ramadan_only": true,
+      "signals": [
+        "iftar_delivery",
+        "late_night",
+        "eid_shopping",
+        "suhoor"
+      ]
+    }
+  },
+  "markets": {
+    "UAE": {
+      "gaming": [
+        100.0,
+        93.4,
+        85.4,
+        79.2,
+        38.9,
+        62.8,
+        90.6,
+        52.8
+      ],
+      "streaming": [
+        89.5,
+        88.5,
+        78.8,
+        100.0,
+        74.3,
+        85.1,
+        89.3,
+        85.7
+      ],
+      "humour": [
+        93.2,
+        92.9,
+        100.0,
+        93.1,
+        84.1,
+        76.5,
+        93.2,
+        90.9
+      ],
+      "beauty": [
+        88.7,
+        86.7,
+        100.0,
+        85.7,
+        70.9,
+        67.0,
+        92.6,
+        77.8
+      ],
+      "breaking_news": [
+        100.0,
+        71.1,
+        65.0,
+        61.2,
+        65.4,
+        87.8,
+        85.2,
+        84.4
+      ],
+      "crisis_topics": [
+        82.1,
+        88.0,
+        84.6,
+        78.6,
+        70.1,
+        76.9,
+        94.9,
+        100.0
+      ],
+      "war_news": [
+        100.0,
+        92.0,
+        91.3,
+        99.3,
+        62.0,
+        59.6,
+        61.6,
+        59.1
+      ],
+      "flight_searches": [
+        87.5,
+        80.8,
+        91.8,
+        85.7,
+        93.3,
+        77.1,
+        92.7,
+        100.0
+      ],
+      "fact_checking": [
+        87.9,
+        100.0,
+        75.7,
+        80.3,
+        74.6,
+        50.3,
+        93.6,
+        96.0
+      ],
+      "social_news": [
+        93.8,
+        85.4,
+        87.2,
+        84.0,
+        66.6,
+        73.1,
+        100.0,
+        99.3
+      ],
+      "price_comparison": [
+        28.6,
+        100.0,
+        71.4,
+        100.0,
+        100.0,
+        14.3,
+        42.9,
+        14.3
+      ],
+      "discounts": [
+        93.8,
+        75.0,
+        91.7,
+        100.0,
+        37.5,
+        60.4,
+        91.7,
+        64.6
+      ],
+      "budgeting": [
+        80.2,
+        100.0,
+        91.9,
+        76.6,
+        72.1,
+        65.8,
+        82.9,
+        79.3
+      ],
+      "inflation": [
+        100.0,
+        67.3,
+        53.7,
+        52.4,
+        37.6,
+        49.4,
+        59.5,
+        52.1
+      ],
+      "panic_buying": [
+        100.0,
+        67.8,
+        86.4,
+        65.3,
+        42.4,
+        52.5,
+        78.8,
+        98.3
+      ],
+      "panic_selling": [
+        40.0,
+        40.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        100.0,
+        0.0
+      ],
+      "food_delivery": [
+        100.0,
+        96.6,
+        91.5,
+        78.6,
+        71.8,
+        74.4,
+        77.8,
+        76.9
+      ],
+      "online_shopping": [
+        80.0,
+        91.3,
+        96.0,
+        78.6,
+        82.1,
+        65.5,
+        100.0,
+        96.3
+      ],
+      "home_improvement": [
+        43.1,
+        39.2,
+        100.0,
+        85.6,
+        49.9,
+        41.0,
+        44.6,
+        43.9
+      ],
+      "travel": [
+        97.4,
+        100.0,
+        92.3,
+        83.1,
+        77.9,
+        72.7,
+        85.6,
+        84.2
+      ],
+      "mental_health": [
+        95.8,
+        100.0,
+        87.0,
+        87.8,
+        82.0,
+        74.1,
+        88.7,
+        79.9
+      ],
+      "meditation": [
+        86.7,
+        100.0,
+        83.4,
+        65.1,
+        71.8,
+        71.1,
+        85.5,
+        87.8
+      ],
+      "fitness": [
+        100.0,
+        84.2,
+        85.2,
+        86.9,
+        60.6,
+        70.9,
+        89.7,
+        87.4
+      ],
+      "sleep": [
+        83.0,
+        83.7,
+        71.0,
+        79.1,
+        65.5,
+        95.3,
+        86.4,
+        100.0
+      ],
+      "therapy": [
+        91.5,
+        90.4,
+        100.0,
+        92.5,
+        80.5,
+        93.3,
+        89.0,
+        95.7
+      ],
+      "charity": [
+        86.4,
+        87.0,
+        89.9,
+        88.8,
+        55.6,
+        80.5,
+        100.0,
+        94.7
+      ],
+      "volunteering": [
+        95.1,
+        100.0,
+        96.5,
+        86.8,
+        72.9,
+        61.8,
+        84.7,
+        91.7
+      ],
+      "community": [
+        100.0,
+        83.5,
+        89.3,
+        87.1,
+        76.0,
+        68.7,
+        87.8,
+        90.8
+      ],
+      "iftar_delivery": [
+        100.0,
+        99.7,
+        90.5,
+        81.4,
+        73.0,
+        79.9,
+        77.6,
+        76.2
+      ],
+      "late_night": [
+        62.1,
+        100.0,
+        58.0,
+        57.6,
+        66.5,
+        56.2,
+        80.4,
+        70.5
+      ],
+      "eid_shopping": [
+        68.1,
+        67.7,
+        67.8,
+        67.2,
+        59.1,
+        71.4,
+        100.0,
+        97.3
+      ],
+      "suhoor": [
+        100.0,
+        44.4,
+        66.7,
+        55.6,
+        100.0,
+        88.9,
+        88.9,
+        100.0
+      ]
+    },
+    "KSA": {
+      "gaming": [
+        100.0,
+        93.4,
+        85.4,
+        79.2,
+        38.9,
+        62.8,
+        90.6,
+        52.8
+      ],
+      "streaming": [
+        89.5,
+        88.5,
+        78.8,
+        100.0,
+        74.3,
+        85.1,
+        89.3,
+        85.7
+      ],
+      "humour": [
+        93.2,
+        92.9,
+        100.0,
+        93.1,
+        84.1,
+        76.5,
+        93.2,
+        90.9
+      ],
+      "beauty": [
+        88.7,
+        86.7,
+        100.0,
+        85.7,
+        70.9,
+        67.0,
+        92.6,
+        77.8
+      ],
+      "breaking_news": [
+        100.0,
+        71.1,
+        65.0,
+        61.2,
+        65.4,
+        87.8,
+        85.2,
+        84.4
+      ],
+      "crisis_topics": [
+        82.1,
+        88.0,
+        84.6,
+        78.6,
+        70.1,
+        76.9,
+        94.9,
+        100.0
+      ],
+      "war_news": [
+        100.0,
+        92.0,
+        91.3,
+        99.3,
+        62.0,
+        59.6,
+        61.6,
+        59.1
+      ],
+      "flight_searches": [
+        87.5,
+        80.8,
+        91.8,
+        85.7,
+        93.3,
+        77.1,
+        92.7,
+        100.0
+      ],
+      "fact_checking": [
+        87.9,
+        100.0,
+        75.7,
+        80.3,
+        74.6,
+        50.3,
+        93.6,
+        96.0
+      ],
+      "social_news": [
+        93.8,
+        85.4,
+        87.2,
+        84.0,
+        66.6,
+        73.1,
+        100.0,
+        99.3
+      ],
+      "price_comparison": [
+        28.6,
+        100.0,
+        71.4,
+        100.0,
+        100.0,
+        14.3,
+        42.9,
+        14.3
+      ],
+      "discounts": [
+        93.8,
+        75.0,
+        91.7,
+        100.0,
+        37.5,
+        60.4,
+        91.7,
+        64.6
+      ],
+      "budgeting": [
+        80.2,
+        100.0,
+        91.9,
+        76.6,
+        72.1,
+        65.8,
+        82.9,
+        79.3
+      ],
+      "inflation": [
+        100.0,
+        67.3,
+        53.7,
+        52.4,
+        37.6,
+        49.4,
+        59.5,
+        52.1
+      ],
+      "panic_buying": [
+        100.0,
+        67.8,
+        86.4,
+        65.3,
+        42.4,
+        52.5,
+        78.8,
+        98.3
+      ],
+      "panic_selling": [
+        40.0,
+        40.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        100.0,
+        0.0
+      ],
+      "food_delivery": [
+        100.0,
+        96.6,
+        91.5,
+        78.6,
+        71.8,
+        74.4,
+        77.8,
+        76.9
+      ],
+      "online_shopping": [
+        80.0,
+        91.3,
+        96.0,
+        78.6,
+        82.1,
+        65.5,
+        100.0,
+        96.3
+      ],
+      "home_improvement": [
+        43.1,
+        39.2,
+        100.0,
+        85.6,
+        49.9,
+        41.0,
+        44.6,
+        43.9
+      ],
+      "travel": [
+        97.4,
+        100.0,
+        92.3,
+        83.1,
+        77.9,
+        72.7,
+        85.6,
+        84.2
+      ],
+      "mental_health": [
+        95.8,
+        100.0,
+        87.0,
+        87.8,
+        82.0,
+        74.1,
+        88.7,
+        79.9
+      ],
+      "meditation": [
+        86.7,
+        100.0,
+        83.4,
+        65.1,
+        71.8,
+        71.1,
+        85.5,
+        87.8
+      ],
+      "fitness": [
+        100.0,
+        84.2,
+        85.2,
+        86.9,
+        60.6,
+        70.9,
+        89.7,
+        87.4
+      ],
+      "sleep": [
+        83.0,
+        83.7,
+        71.0,
+        79.1,
+        65.5,
+        95.3,
+        86.4,
+        100.0
+      ],
+      "therapy": [
+        91.5,
+        90.4,
+        100.0,
+        92.5,
+        80.5,
+        93.3,
+        89.0,
+        95.7
+      ],
+      "charity": [
+        86.4,
+        87.0,
+        89.9,
+        88.8,
+        55.6,
+        80.5,
+        100.0,
+        94.7
+      ],
+      "volunteering": [
+        95.1,
+        100.0,
+        96.5,
+        86.8,
+        72.9,
+        61.8,
+        84.7,
+        91.7
+      ],
+      "community": [
+        100.0,
+        83.5,
+        89.3,
+        87.1,
+        76.0,
+        68.7,
+        87.8,
+        90.8
+      ],
+      "iftar_delivery": [
+        100.0,
+        99.7,
+        90.5,
+        81.4,
+        73.0,
+        79.9,
+        77.6,
+        76.2
+      ],
+      "late_night": [
+        62.1,
+        100.0,
+        58.0,
+        57.6,
+        66.5,
+        56.2,
+        80.4,
+        70.5
+      ],
+      "eid_shopping": [
+        68.1,
+        67.7,
+        67.8,
+        67.2,
+        59.1,
+        71.4,
+        100.0,
+        97.3
+      ],
+      "suhoor": [
+        100.0,
+        44.4,
+        66.7,
+        55.6,
+        100.0,
+        88.9,
+        88.9,
+        100.0
+      ]
+    },
+    "Kuwait": {
+      "gaming": [
+        100.0,
+        93.4,
+        85.4,
+        79.2,
+        38.9,
+        62.8,
+        90.6,
+        52.8
+      ],
+      "streaming": [
+        89.5,
+        88.5,
+        78.8,
+        100.0,
+        74.3,
+        85.1,
+        89.3,
+        85.7
+      ],
+      "humour": [
+        93.2,
+        92.9,
+        100.0,
+        93.1,
+        84.1,
+        76.5,
+        93.2,
+        90.9
+      ],
+      "beauty": [
+        88.7,
+        86.7,
+        100.0,
+        85.7,
+        70.9,
+        67.0,
+        92.6,
+        77.8
+      ],
+      "breaking_news": [
+        100.0,
+        71.1,
+        65.0,
+        61.2,
+        65.4,
+        87.8,
+        85.2,
+        84.4
+      ],
+      "crisis_topics": [
+        82.1,
+        88.0,
+        84.6,
+        78.6,
+        70.1,
+        76.9,
+        94.9,
+        100.0
+      ],
+      "war_news": [
+        100.0,
+        92.0,
+        91.3,
+        99.3,
+        62.0,
+        59.6,
+        61.6,
+        59.1
+      ],
+      "flight_searches": [
+        87.5,
+        80.8,
+        91.8,
+        85.7,
+        93.3,
+        77.1,
+        92.7,
+        100.0
+      ],
+      "fact_checking": [
+        87.9,
+        100.0,
+        75.7,
+        80.3,
+        74.6,
+        50.3,
+        93.6,
+        96.0
+      ],
+      "social_news": [
+        93.8,
+        85.4,
+        87.2,
+        84.0,
+        66.6,
+        73.1,
+        100.0,
+        99.3
+      ],
+      "price_comparison": [
+        28.6,
+        100.0,
+        71.4,
+        100.0,
+        100.0,
+        14.3,
+        42.9,
+        14.3
+      ],
+      "discounts": [
+        93.8,
+        75.0,
+        91.7,
+        100.0,
+        37.5,
+        60.4,
+        91.7,
+        64.6
+      ],
+      "budgeting": [
+        80.2,
+        100.0,
+        91.9,
+        76.6,
+        72.1,
+        65.8,
+        82.9,
+        79.3
+      ],
+      "inflation": [
+        100.0,
+        67.3,
+        53.7,
+        52.4,
+        37.6,
+        49.4,
+        59.5,
+        52.1
+      ],
+      "panic_buying": [
+        100.0,
+        67.8,
+        86.4,
+        65.3,
+        42.4,
+        52.5,
+        78.8,
+        98.3
+      ],
+      "panic_selling": [
+        40.0,
+        40.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        100.0,
+        0.0
+      ],
+      "food_delivery": [
+        100.0,
+        96.6,
+        91.5,
+        78.6,
+        71.8,
+        74.4,
+        77.8,
+        76.9
+      ],
+      "online_shopping": [
+        80.0,
+        91.3,
+        96.0,
+        78.6,
+        82.1,
+        65.5,
+        100.0,
+        96.3
+      ],
+      "home_improvement": [
+        43.1,
+        39.2,
+        100.0,
+        85.6,
+        49.9,
+        41.0,
+        44.6,
+        43.9
+      ],
+      "travel": [
+        97.4,
+        100.0,
+        92.3,
+        83.1,
+        77.9,
+        72.7,
+        85.6,
+        84.2
+      ],
+      "mental_health": [
+        95.8,
+        100.0,
+        87.0,
+        87.8,
+        82.0,
+        74.1,
+        88.7,
+        79.9
+      ],
+      "meditation": [
+        86.7,
+        100.0,
+        83.4,
+        65.1,
+        71.8,
+        71.1,
+        85.5,
+        87.8
+      ],
+      "fitness": [
+        100.0,
+        84.2,
+        85.2,
+        86.9,
+        60.6,
+        70.9,
+        89.7,
+        87.4
+      ],
+      "sleep": [
+        83.0,
+        83.7,
+        71.0,
+        79.1,
+        65.5,
+        95.3,
+        86.4,
+        100.0
+      ],
+      "therapy": [
+        91.5,
+        90.4,
+        100.0,
+        92.5,
+        80.5,
+        93.3,
+        89.0,
+        95.7
+      ],
+      "charity": [
+        86.4,
+        87.0,
+        89.9,
+        88.8,
+        55.6,
+        80.5,
+        100.0,
+        94.7
+      ],
+      "volunteering": [
+        95.1,
+        100.0,
+        96.5,
+        86.8,
+        72.9,
+        61.8,
+        84.7,
+        91.7
+      ],
+      "community": [
+        100.0,
+        83.5,
+        89.3,
+        87.1,
+        76.0,
+        68.7,
+        87.8,
+        90.8
+      ],
+      "iftar_delivery": [
+        100.0,
+        99.7,
+        90.5,
+        81.4,
+        73.0,
+        79.9,
+        77.6,
+        76.2
+      ],
+      "late_night": [
+        62.1,
+        100.0,
+        58.0,
+        57.6,
+        66.5,
+        56.2,
+        80.4,
+        70.5
+      ],
+      "eid_shopping": [
+        68.1,
+        67.7,
+        67.8,
+        67.2,
+        59.1,
+        71.4,
+        100.0,
+        97.3
+      ],
+      "suhoor": [
+        100.0,
+        44.4,
+        66.7,
+        55.6,
+        100.0,
+        88.9,
+        88.9,
+        100.0
+      ]
+    },
+    "Qatar": {
+      "gaming": [
+        100.0,
+        93.4,
+        85.4,
+        79.2,
+        38.9,
+        62.8,
+        90.6,
+        52.8
+      ],
+      "streaming": [
+        89.5,
+        88.5,
+        78.8,
+        100.0,
+        74.3,
+        85.1,
+        89.3,
+        85.7
+      ],
+      "humour": [
+        93.2,
+        92.9,
+        100.0,
+        93.1,
+        84.1,
+        76.5,
+        93.2,
+        90.9
+      ],
+      "beauty": [
+        88.7,
+        86.7,
+        100.0,
+        85.7,
+        70.9,
+        67.0,
+        92.6,
+        77.8
+      ],
+      "breaking_news": [
+        100.0,
+        71.1,
+        65.0,
+        61.2,
+        65.4,
+        87.8,
+        85.2,
+        84.4
+      ],
+      "crisis_topics": [
+        82.1,
+        88.0,
+        84.6,
+        78.6,
+        70.1,
+        76.9,
+        94.9,
+        100.0
+      ],
+      "war_news": [
+        100.0,
+        92.0,
+        91.3,
+        99.3,
+        62.0,
+        59.6,
+        61.6,
+        59.1
+      ],
+      "flight_searches": [
+        87.5,
+        80.8,
+        91.8,
+        85.7,
+        93.3,
+        77.1,
+        92.7,
+        100.0
+      ],
+      "fact_checking": [
+        87.9,
+        100.0,
+        75.7,
+        80.3,
+        74.6,
+        50.3,
+        93.6,
+        96.0
+      ],
+      "social_news": [
+        93.8,
+        85.4,
+        87.2,
+        84.0,
+        66.6,
+        73.1,
+        100.0,
+        99.3
+      ],
+      "price_comparison": [
+        28.6,
+        100.0,
+        71.4,
+        100.0,
+        100.0,
+        14.3,
+        42.9,
+        14.3
+      ],
+      "discounts": [
+        93.8,
+        75.0,
+        91.7,
+        100.0,
+        37.5,
+        60.4,
+        91.7,
+        64.6
+      ],
+      "budgeting": [
+        80.2,
+        100.0,
+        91.9,
+        76.6,
+        72.1,
+        65.8,
+        82.9,
+        79.3
+      ],
+      "inflation": [
+        100.0,
+        67.3,
+        53.7,
+        52.4,
+        37.6,
+        49.4,
+        59.5,
+        52.1
+      ],
+      "panic_buying": [
+        100.0,
+        67.8,
+        86.4,
+        65.3,
+        42.4,
+        52.5,
+        78.8,
+        98.3
+      ],
+      "panic_selling": [
+        40.0,
+        40.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        100.0,
+        0.0
+      ],
+      "food_delivery": [
+        100.0,
+        96.6,
+        91.5,
+        78.6,
+        71.8,
+        74.4,
+        77.8,
+        76.9
+      ],
+      "online_shopping": [
+        80.0,
+        91.3,
+        96.0,
+        78.6,
+        82.1,
+        65.5,
+        100.0,
+        96.3
+      ],
+      "home_improvement": [
+        43.1,
+        39.2,
+        100.0,
+        85.6,
+        49.9,
+        41.0,
+        44.6,
+        43.9
+      ],
+      "travel": [
+        97.4,
+        100.0,
+        92.3,
+        83.1,
+        77.9,
+        72.7,
+        85.6,
+        84.2
+      ],
+      "mental_health": [
+        95.8,
+        100.0,
+        87.0,
+        87.8,
+        82.0,
+        74.1,
+        88.7,
+        79.9
+      ],
+      "meditation": [
+        86.7,
+        100.0,
+        83.4,
+        65.1,
+        71.8,
+        71.1,
+        85.5,
+        87.8
+      ],
+      "fitness": [
+        100.0,
+        84.2,
+        85.2,
+        86.9,
+        60.6,
+        70.9,
+        89.7,
+        87.4
+      ],
+      "sleep": [
+        83.0,
+        83.7,
+        71.0,
+        79.1,
+        65.5,
+        95.3,
+        86.4,
+        100.0
+      ],
+      "therapy": [
+        91.5,
+        90.4,
+        100.0,
+        92.5,
+        80.5,
+        93.3,
+        89.0,
+        95.7
+      ],
+      "charity": [
+        86.4,
+        87.0,
+        89.9,
+        88.8,
+        55.6,
+        80.5,
+        100.0,
+        94.7
+      ],
+      "volunteering": [
+        95.1,
+        100.0,
+        96.5,
+        86.8,
+        72.9,
+        61.8,
+        84.7,
+        91.7
+      ],
+      "community": [
+        100.0,
+        83.5,
+        89.3,
+        87.1,
+        76.0,
+        68.7,
+        87.8,
+        90.8
+      ],
+      "iftar_delivery": [
+        100.0,
+        99.7,
+        90.5,
+        81.4,
+        73.0,
+        79.9,
+        77.6,
+        76.2
+      ],
+      "late_night": [
+        62.1,
+        100.0,
+        58.0,
+        57.6,
+        66.5,
+        56.2,
+        80.4,
+        70.5
+      ],
+      "eid_shopping": [
+        68.1,
+        67.7,
+        67.8,
+        67.2,
+        59.1,
+        71.4,
+        100.0,
+        97.3
+      ],
+      "suhoor": [
+        100.0,
+        44.4,
+        66.7,
+        55.6,
+        100.0,
+        88.9,
+        88.9,
+        100.0
+      ]
+    }
+  },
+  "global": {
+    "wikipedia": {
+      "gaming": [
+        74.4,
+        79.8,
+        86.8,
+        77.3,
+        76.4,
+        75.2,
+        100.0,
+        73.6
+      ],
+      "streaming": [
+        100.0,
+        79.7,
+        69.5,
+        75.3,
+        88.2,
+        95.9,
+        92.7,
+        94.1
+      ],
+      "humour": [
+        91.0,
+        90.8,
+        91.5,
+        90.3,
+        95.0,
+        97.2,
+        100.0,
+        91.5
+      ],
+      "beauty": [
+        91.1,
+        61.4,
+        60.9,
+        88.1,
+        85.6,
+        76.2,
+        100.0,
+        77.7
+      ],
+      "breaking_news": [
+        73.4,
+        56.4,
+        61.1,
+        56.1,
+        68.7,
+        81.2,
+        100.0,
+        75.9
+      ],
+      "crisis_topics": [
+        67.1,
+        60.6,
+        70.3,
+        62.6,
+        73.5,
+        100.0,
+        59.4,
+        71.6
+      ],
+      "war_news": [
+        85.6,
+        85.1,
+        76.5,
+        73.5,
+        90.8,
+        100.0,
+        97.6,
+        86.0
+      ],
+      "flight_searches": [
+        75.7,
+        77.2,
+        79.2,
+        78.3,
+        77.7,
+        100.0,
+        75.4,
+        92.9
+      ],
+      "fact_checking": [
+        70.3,
+        54.4,
+        57.6,
+        49.4,
+        70.9,
+        100.0,
+        100.0,
+        79.7
+      ],
+      "social_news": [
+        84.4,
+        81.8,
+        63.2,
+        70.6,
+        100.0,
+        96.8,
+        99.7,
+        99.5
+      ],
+      "price_comparison": [
+        100.0,
+        50.0,
+        75.0,
+        25.0,
+        62.5,
+        75.0,
+        62.5,
+        25.0
+      ],
+      "discounts": [
+        83.8,
+        81.1,
+        75.7,
+        100.0,
+        81.1,
+        64.9,
+        81.1,
+        48.6
+      ],
+      "budgeting": [
+        78.0,
+        74.0,
+        72.0,
+        84.0,
+        84.0,
+        78.0,
+        79.0,
+        100.0
+      ],
+      "inflation": [
+        67.5,
+        59.2,
+        52.1,
+        53.4,
+        67.9,
+        70.0,
+        69.0,
+        100.0
+      ],
+      "panic_buying": [
+        71.7,
+        61.9,
+        62.8,
+        47.8,
+        100.0,
+        80.5,
+        85.8,
+        88.5
+      ],
+      "panic_selling": [
+        50.0,
+        0.0,
+        0.0,
+        50.0,
+        100.0,
+        50.0,
+        50.0,
+        0.0
+      ],
+      "food_delivery": [
+        100.0,
+        85.7,
+        82.7,
+        84.7,
+        91.8,
+        80.6,
+        82.7,
+        73.5
+      ],
+      "online_shopping": [
+        80.3,
+        86.9,
+        56.4,
+        55.0,
+        76.8,
+        95.6,
+        100.0,
+        88.4
+      ],
+      "home_improvement": [
+        74.9,
+        73.1,
+        86.5,
+        66.1,
+        66.1,
+        100.0,
+        67.3,
+        60.8
+      ],
+      "travel": [
+        86.6,
+        88.4,
+        77.8,
+        79.2,
+        100.0,
+        97.3,
+        88.3,
+        87.7
+      ],
+      "mental_health": [
+        77.3,
+        75.8,
+        64.1,
+        64.9,
+        100.0,
+        81.2,
+        80.9,
+        75.7
+      ],
+      "meditation": [
+        87.0,
+        84.6,
+        86.6,
+        88.4,
+        100.0,
+        99.2,
+        96.4,
+        88.0
+      ],
+      "fitness": [
+        92.1,
+        84.9,
+        61.9,
+        77.0,
+        93.1,
+        100.0,
+        77.5,
+        85.4
+      ],
+      "sleep": [
+        82.1,
+        79.0,
+        77.0,
+        78.8,
+        91.4,
+        100.0,
+        88.1,
+        91.7
+      ],
+      "therapy": [
+        100.0,
+        93.2,
+        76.5,
+        84.5,
+        97.4,
+        89.6,
+        86.5,
+        86.3
+      ],
+      "charity": [
+        100.0,
+        94.0,
+        85.0,
+        67.1,
+        76.6,
+        93.4,
+        74.3,
+        67.1
+      ],
+      "volunteering": [
+        98.6,
+        82.6,
+        73.9,
+        100.0,
+        92.8,
+        82.6,
+        93.5,
+        73.9
+      ],
+      "community": [
+        62.7,
+        53.6,
+        52.3,
+        54.8,
+        76.3,
+        88.5,
+        100.0,
+        60.4
+      ],
+      "iftar_delivery": [
+        92.1,
+        100.0,
+        62.5,
+        32.7,
+        27.3,
+        23.1,
+        20.3,
+        16.8
+      ],
+      "late_night": [
+        94.3,
+        74.5,
+        75.8,
+        80.3,
+        79.6,
+        82.2,
+        100.0,
+        86.6
+      ],
+      "eid_shopping": [
+        55.0,
+        100.0,
+        35.8,
+        12.6,
+        10.2,
+        6.2,
+        4.6,
+        3.9
+      ],
+      "suhoor": [
+        83.3,
+        83.3,
+        66.7,
+        83.3,
+        16.7,
+        100.0,
+        83.3,
+        33.3
+      ]
+    },
+    "rss_trends": {
+      "UAE": {
+        "sport_entertainment_pct": 0,
+        "crisis_pct": 0,
+        "top_topics": [
+          "charter schools",
+          "\u0627\u0644\u0641",
+          "nifty 50",
+          "weather",
+          "\u0d15\u0d3e\u0d32\u0d3e\u0d35\u0d38\u0d4d\u0d25",
+          "dubai metro",
+          "\u0bb5\u0bbe\u0ba9\u0bbf\u0bb2\u0bc8",
+          "sri rama navami 2026",
+          "today's weather",
+          "aryna sabalenka"
+        ]
+      },
+      "KSA": {
+        "sport_entertainment_pct": 20,
+        "crisis_pct": 0,
+        "top_topics": [
+          "\u0647\u0627\u0631\u064a \u0628\u0648\u062a\u0631",
+          "\u0645\u0646\u062a\u062e\u0628 \u0627\u0644\u0639\u0631\u0627\u0642",
+          "\u0623\u0628\u0648\u0638\u0628\u064a",
+          "neom saudi arabia",
+          "\u0646\u062a\u0641\u0644\u0643\u0633",
+          "\u0645\u0646\u062a\u062e\u0628 \u0627\u0644\u0628\u0631\u062a\u063a\u0627\u0644",
+          "wales vs bosnia and herzegovina",
+          "bolivia vs suriname",
+          "\u0646\u0633\u0631\u064a\u0646 \u0637\u0627\u0641\u0634",
+          "\u062a\u0635\u0641\u064a\u0627\u062a \u0643\u0623\u0633 \u0627\u0644\u0639\u0627\u0644\u0645 2026 \u0623\u0648\u0631\u0648\u0628\u0627"
+        ]
+      },
+      "Kuwait": {
+        "sport_entertainment_pct": 40,
+        "crisis_pct": 0,
+        "top_topics": [
+          "kuwait",
+          "\u0627\u0644\u0628\u0631\u0627\u0632\u064a\u0644 \u0636\u062f \u0641\u0631\u0646\u0633\u0627",
+          "phillies vs rangers",
+          "italy vs northern ireland",
+          "kooora",
+          "world cup qualifiers",
+          "friendlies",
+          "ipl",
+          "\u0627\u0644\u0637\u0642\u0633 \u063a\u062f\u064b\u0627",
+          "weather tomorrow"
+        ]
+      },
+      "Qatar": {
+        "sport_entertainment_pct": 40,
+        "crisis_pct": 0,
+        "top_topics": [
+          "ipl 2026 schedule",
+          "\u0643\u0648\u0631\u0629 \u0644\u0627\u064a\u0641",
+          "italy vs northern ireland",
+          "qatar airways flights",
+          "world cup qualifiers",
+          "\u0627\u0644\u0637\u0642\u0633 \u063a\u062f\u064b\u0627",
+          "france vs brazil",
+          "hail",
+          "doha weather",
+          "tornado"
+        ]
+      }
+    },
+    "twitch": {
+      "total_viewers": 179762,
+      "top_games": [
+        {
+          "name": "Just Chatting",
+          "viewers": 46891
+        },
+        {
+          "name": "Counter-Strike",
+          "viewers": 33592
+        },
+        {
+          "name": "World of Warcraft",
+          "viewers": 24822
+        },
+        {
+          "name": "QSMP",
+          "viewers": 21310
+        },
+        {
+          "name": "Street Fighter 6",
+          "viewers": 7110
+        }
+      ]
+    }
+  },
+  "news_volumes": {
+    "newsapi": {
+      "UAE": {
+        "gaming": 54,
+        "streaming": 54,
+        "humour": 54,
+        "beauty": 54,
+        "breaking_news": 54,
+        "crisis_topics": 54,
+        "war_news": 54,
+        "flight_searches": 54,
+        "fact_checking": 54,
+        "social_news": 54,
+        "price_comparison": 54,
+        "discounts": 54,
+        "budgeting": 54,
+        "inflation": 54,
+        "panic_buying": 54,
+        "panic_selling": 54,
+        "food_delivery": 54,
+        "online_shopping": 54,
+        "home_improvement": 54,
+        "travel": 54,
+        "mental_health": 54,
+        "meditation": 54,
+        "fitness": 54,
+        "sleep": 54,
+        "therapy": 54,
+        "charity": 54,
+        "volunteering": 54,
+        "community": 54,
+        "iftar_delivery": 54,
+        "late_night": 54,
+        "eid_shopping": 54,
+        "suhoor": 54
+      },
+      "KSA": {
+        "gaming": 43,
+        "streaming": 43,
+        "humour": 43,
+        "beauty": 43,
+        "breaking_news": 43,
+        "crisis_topics": 43,
+        "war_news": 43,
+        "flight_searches": 43,
+        "fact_checking": 43,
+        "social_news": 43,
+        "price_comparison": 43,
+        "discounts": 43,
+        "budgeting": 43,
+        "inflation": 43,
+        "panic_buying": 43,
+        "panic_selling": 43,
+        "food_delivery": 43,
+        "online_shopping": 43,
+        "home_improvement": 43,
+        "travel": 43,
+        "mental_health": 43,
+        "meditation": 43,
+        "fitness": 43,
+        "sleep": 43,
+        "therapy": 43,
+        "charity": 43,
+        "volunteering": 43,
+        "community": 43,
+        "iftar_delivery": 43,
+        "late_night": 43,
+        "eid_shopping": 43,
+        "suhoor": 43
+      },
+      "Kuwait": {
+        "gaming": 17,
+        "streaming": 17,
+        "humour": 17,
+        "beauty": 17,
+        "breaking_news": 17,
+        "crisis_topics": 17,
+        "war_news": 17,
+        "flight_searches": 17,
+        "fact_checking": 17,
+        "social_news": 17,
+        "price_comparison": 17,
+        "discounts": 17,
+        "budgeting": 17,
+        "inflation": 17,
+        "panic_buying": 17,
+        "panic_selling": 17,
+        "food_delivery": 17,
+        "online_shopping": 17,
+        "home_improvement": 17,
+        "travel": 17,
+        "mental_health": 17,
+        "meditation": 17,
+        "fitness": 17,
+        "sleep": 17,
+        "therapy": 17,
+        "charity": 17,
+        "volunteering": 17,
+        "community": 17,
+        "iftar_delivery": 17,
+        "late_night": 17,
+        "eid_shopping": 17,
+        "suhoor": 17
+      },
+      "Qatar": {
+        "gaming": 31,
+        "streaming": 31,
+        "humour": 31,
+        "beauty": 31,
+        "breaking_news": 31,
+        "crisis_topics": 31,
+        "war_news": 31,
+        "flight_searches": 31,
+        "fact_checking": 31,
+        "social_news": 31,
+        "price_comparison": 31,
+        "discounts": 31,
+        "budgeting": 31,
+        "inflation": 31,
+        "panic_buying": 31,
+        "panic_selling": 31,
+        "food_delivery": 31,
+        "online_shopping": 31,
+        "home_improvement": 31,
+        "travel": 31,
+        "mental_health": 31,
+        "meditation": 31,
+        "fitness": 31,
+        "sleep": 31,
+        "therapy": 31,
+        "charity": 31,
+        "volunteering": 31,
+        "community": 31,
+        "iftar_delivery": 31,
+        "late_night": 31,
+        "eid_shopping": 31,
+        "suhoor": 31
+      }
+    },
+    "newsapi_global": {
+      "gaming": 145,
+      "streaming": 145,
+      "humour": 145,
+      "beauty": 145,
+      "breaking_news": 145,
+      "crisis_topics": 145,
+      "war_news": 145,
+      "flight_searches": 145,
+      "fact_checking": 145,
+      "social_news": 145,
+      "price_comparison": 145,
+      "discounts": 145,
+      "budgeting": 145,
+      "inflation": 145,
+      "panic_buying": 145,
+      "panic_selling": 145,
+      "food_delivery": 145,
+      "online_shopping": 145,
+      "home_improvement": 145,
+      "travel": 145,
+      "mental_health": 145,
+      "meditation": 145,
+      "fitness": 145,
+      "sleep": 145,
+      "therapy": 145,
+      "charity": 145,
+      "volunteering": 145,
+      "community": 145,
+      "iftar_delivery": 145,
+      "late_night": 145,
+      "eid_shopping": 145,
+      "suhoor": 145
+    },
+    "guardian": {
+      "gaming": 21,
+      "streaming": 29,
+      "humour": 51,
+      "beauty": 51,
+      "breaking_news": 459,
+      "crisis_topics": 327,
+      "war_news": 420,
+      "flight_searches": 35,
+      "fact_checking": 37,
+      "social_news": 233,
+      "price_comparison": 108,
+      "discounts": 29,
+      "budgeting": 21,
+      "inflation": 77,
+      "panic_buying": 58,
+      "panic_selling": 81,
+      "food_delivery": 50,
+      "online_shopping": 50,
+      "home_improvement": 114,
+      "travel": 129,
+      "mental_health": 89,
+      "meditation": 8,
+      "fitness": 30,
+      "sleep": 78,
+      "therapy": 26,
+      "charity": 60,
+      "volunteering": 7,
+      "community": 203,
+      "iftar_delivery": 21,
+      "late_night": 23,
+      "eid_shopping": 23,
+      "suhoor": 19
+    }
+  },
+  "sources_live": [
+    "wikipedia",
+    "google_rss",
+    "newsapi",
+    "guardian",
+    "twitch"
+  ],
+  "sources_failed": [],
+  "ramadan_active": true
+}

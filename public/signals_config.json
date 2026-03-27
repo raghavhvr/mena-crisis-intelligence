@@ -1,0 +1,417 @@
+{
+  "ramadan_active": true,
+  "ramadan_end": "2026-03-30",
+  "categories": {
+    "escapism": {
+      "label": "Escapism & Entertainment",
+      "icon": "◈",
+      "color": "#B0F467",
+      "hypothesis": "Stress drives people toward distraction and comfort content",
+      "signals": {
+        "gaming": {
+          "label": "Gaming",
+          "news": "gaming esports video games",
+          "guardian": "gaming",
+          "reddit_subs": [
+            "gaming",
+            "pcgaming",
+            "PS5"
+          ],
+          "reddit_query": "gaming esports video games"
+        },
+        "streaming": {
+          "label": "Streaming",
+          "news": "netflix streaming video content",
+          "guardian": "streaming",
+          "reddit_subs": [
+            "netflix",
+            "cordcutters",
+            "television"
+          ],
+          "reddit_query": "streaming netflix shows watching"
+        },
+        "humour": {
+          "label": "Humour & Comedy",
+          "news": "comedy memes humour viral",
+          "guardian": "comedy",
+          "reddit_subs": [
+            "funny",
+            "memes",
+            "dankmemes"
+          ],
+          "reddit_query": "funny memes comedy viral"
+        },
+        "beauty": {
+          "label": "Beauty & Self-care",
+          "news": "beauty skincare self-care wellness routine",
+          "guardian": "beauty",
+          "reddit_subs": [
+            "SkincareAddiction",
+            "beauty",
+            "MakeupAddiction"
+          ],
+          "reddit_query": "skincare beauty self-care routine"
+        }
+      }
+    },
+    "crisis_awareness": {
+      "label": "News & Crisis Awareness",
+      "icon": "◎",
+      "color": "#5465FF",
+      "hypothesis": "Crisis triggers spike in news consumption and information seeking",
+      "signals": {
+        "breaking_news": {
+          "label": "Breaking News",
+          "news": "breaking news latest update",
+          "guardian": "news",
+          "reddit_subs": [
+            "worldnews",
+            "news",
+            "UpliftingNews"
+          ],
+          "reddit_query": "breaking news update alert"
+        },
+        "crisis_topics": {
+          "label": "Crisis Topics",
+          "news": "crisis emergency alert",
+          "guardian": "crisis",
+          "reddit_subs": [
+            "worldnews",
+            "geopolitics",
+            "collapse"
+          ],
+          "reddit_query": "crisis emergency disaster alert"
+        },
+        "war_news": {
+          "label": "War & Conflict",
+          "news": "war conflict military attack",
+          "guardian": "war",
+          "reddit_subs": [
+            "worldnews",
+            "geopolitics",
+            "CredibleDefense"
+          ],
+          "reddit_query": "war conflict military attack"
+        },
+        "flight_searches": {
+          "label": "Flight Searches",
+          "news": "flights tickets travel booking",
+          "guardian": "airlines travel",
+          "reddit_subs": [
+            "solotravel",
+            "travel",
+            "flightdeals"
+          ],
+          "reddit_query": "flights booking tickets travel cheap"
+        },
+        "fact_checking": {
+          "label": "Fact-checking",
+          "news": "fact check misinformation rumour",
+          "guardian": "fact check",
+          "reddit_subs": [
+            "skeptic",
+            "Snopes",
+            "MediaSynthesis"
+          ],
+          "reddit_query": "fact check misinformation rumour debunk"
+        },
+        "social_news": {
+          "label": "Social Media News",
+          "news": "social media trending viral news",
+          "guardian": "social media",
+          "reddit_subs": [
+            "OutOfTheLoop",
+            "NoStupidQuestions",
+            "worldnews"
+          ],
+          "reddit_query": "viral trending social media news"
+        }
+      }
+    },
+    "economic_anxiety": {
+      "label": "Economic Anxiety",
+      "icon": "◇",
+      "color": "#FCFE67",
+      "hypothesis": "Financial stress changes search and purchase intent signals",
+      "signals": {
+        "price_comparison": {
+          "label": "Price Comparison",
+          "news": "price comparison cheapest best deal",
+          "guardian": "prices consumer",
+          "reddit_subs": [
+            "Frugal",
+            "deals",
+            "CouponHunter"
+          ],
+          "reddit_query": "price comparison cheapest best deal"
+        },
+        "discounts": {
+          "label": "Discounts & Coupons",
+          "news": "discount coupon sale offer promo",
+          "guardian": "discounts retail",
+          "reddit_subs": [
+            "deals",
+            "Frugal",
+            "ShoppingDeals"
+          ],
+          "reddit_query": "discount sale coupon offer promo"
+        },
+        "budgeting": {
+          "label": "Budgeting & Savings",
+          "news": "budgeting savings personal finance",
+          "guardian": "personal finance",
+          "reddit_subs": [
+            "personalfinance",
+            "povertyfinance",
+            "Frugal"
+          ],
+          "reddit_query": "budgeting savings personal finance"
+        },
+        "inflation": {
+          "label": "Inflation",
+          "news": "inflation prices cost of living rise",
+          "guardian": "inflation",
+          "reddit_subs": [
+            "Economics",
+            "personalfinance",
+            "Inflation"
+          ],
+          "reddit_query": "inflation cost of living prices rising"
+        },
+        "panic_buying": {
+          "label": "Panic Buying",
+          "news": "panic buying stockpiling shortage supply",
+          "guardian": "panic buying",
+          "reddit_subs": [
+            "preppers",
+            "Costco",
+            "personalfinance"
+          ],
+          "reddit_query": "panic buying stockpiling shortage supply"
+        },
+        "panic_selling": {
+          "label": "Panic Selling",
+          "news": "panic selling market crash stocks sell-off",
+          "guardian": "market crash stocks",
+          "reddit_subs": [
+            "stocks",
+            "investing",
+            "wallstreetbets"
+          ],
+          "reddit_query": "panic selling market crash stocks sell-off"
+        }
+      }
+    },
+    "behavioral_shifts": {
+      "label": "Behavioral Shifts",
+      "icon": "◐",
+      "color": "#93DFE3",
+      "hypothesis": "Crisis changes how people shop, move and spend time",
+      "signals": {
+        "food_delivery": {
+          "label": "Food Delivery",
+          "news": "food delivery order talabat deliveroo",
+          "guardian": "food delivery",
+          "reddit_subs": [
+            "food",
+            "AskCulinary",
+            "mildlyinfuriating"
+          ],
+          "reddit_query": "food delivery order app restaurant"
+        },
+        "online_shopping": {
+          "label": "Online Shopping",
+          "news": "online shopping ecommerce amazon noon",
+          "guardian": "ecommerce online shopping",
+          "reddit_subs": [
+            "BuyItForLife",
+            "amazon",
+            "onlineshopping"
+          ],
+          "reddit_query": "online shopping ecommerce order buy"
+        },
+        "home_improvement": {
+          "label": "Home & Nesting",
+          "news": "home improvement renovation interior decor",
+          "guardian": "home improvement",
+          "reddit_subs": [
+            "DIY",
+            "HomeImprovement",
+            "malelivingspace"
+          ],
+          "reddit_query": "home improvement renovation decor DIY"
+        },
+        "travel": {
+          "label": "Travel & Escape",
+          "news": "travel holiday vacation escape trip",
+          "guardian": "travel",
+          "reddit_subs": [
+            "travel",
+            "solotravel",
+            "backpacking"
+          ],
+          "reddit_query": "travel holiday vacation escape trip"
+        }
+      }
+    },
+    "wellness": {
+      "label": "Wellness & Mental Health",
+      "icon": "◉",
+      "color": "#00DBEE",
+      "hypothesis": "Prolonged stress surfaces as wellness and mental health interest",
+      "signals": {
+        "mental_health": {
+          "label": "Mental Health",
+          "news": "mental health anxiety stress depression",
+          "guardian": "mental health",
+          "reddit_subs": [
+            "mentalhealth",
+            "depression",
+            "anxiety"
+          ],
+          "reddit_query": "mental health anxiety stress depression"
+        },
+        "meditation": {
+          "label": "Meditation & Mindfulness",
+          "news": "meditation mindfulness calm stress relief",
+          "guardian": "meditation mindfulness",
+          "reddit_subs": [
+            "Meditation",
+            "Mindfulness",
+            "zenbuddhism"
+          ],
+          "reddit_query": "meditation mindfulness calm stress"
+        },
+        "fitness": {
+          "label": "Fitness & Exercise",
+          "news": "fitness exercise gym workout health",
+          "guardian": "fitness",
+          "reddit_subs": [
+            "fitness",
+            "xxfitness",
+            "bodyweightfitness"
+          ],
+          "reddit_query": "fitness workout gym exercise health"
+        },
+        "sleep": {
+          "label": "Sleep",
+          "news": "sleep insomnia rest sleep disorder",
+          "guardian": "sleep health",
+          "reddit_subs": [
+            "sleep",
+            "insomnia",
+            "NightOwls"
+          ],
+          "reddit_query": "sleep insomnia rest sleep disorder"
+        },
+        "therapy": {
+          "label": "Therapy & Counselling",
+          "news": "therapy counselling psychiatrist mental support",
+          "guardian": "therapy counselling",
+          "reddit_subs": [
+            "therapy",
+            "TalkTherapy",
+            "mentalhealth"
+          ],
+          "reddit_query": "therapy counselling mental health support"
+        }
+      }
+    },
+    "social_community": {
+      "label": "Social & Community",
+      "icon": "◆",
+      "color": "#788BFF",
+      "hypothesis": "Crisis drives community-seeking and prosocial behavior",
+      "signals": {
+        "charity": {
+          "label": "Charity & Donations",
+          "news": "charity donation fund relief aid",
+          "guardian": "charity",
+          "reddit_subs": [
+            "CharitableDonations",
+            "nonprofit",
+            "volunteer"
+          ],
+          "reddit_query": "charity donation relief aid fund"
+        },
+        "volunteering": {
+          "label": "Volunteering",
+          "news": "volunteer community help support",
+          "guardian": "volunteering",
+          "reddit_subs": [
+            "volunteer",
+            "nonprofit",
+            "community"
+          ],
+          "reddit_query": "volunteer community help support"
+        },
+        "community": {
+          "label": "Community Events",
+          "news": "community event local gathering",
+          "guardian": "community",
+          "reddit_subs": [
+            "community",
+            "localLFG",
+            "neighborly"
+          ],
+          "reddit_query": "community event local gathering neighbourhood"
+        }
+      }
+    },
+    "ramadan": {
+      "label": "Ramadan",
+      "icon": "☽",
+      "color": "#FCFE67",
+      "hypothesis": "Ramadan shifts consumption patterns — iftar, late-night, Eid prep",
+      "ramadan_only": true,
+      "signals": {
+        "iftar_delivery": {
+          "label": "Iftar Delivery",
+          "news": "iftar delivery food ramadan break fast",
+          "guardian": "ramadan iftar",
+          "reddit_subs": [
+            "saudiarabia",
+            "dubai",
+            "islam"
+          ],
+          "reddit_query": "iftar food delivery ramadan break fast"
+        },
+        "late_night": {
+          "label": "Late-night Entertainment",
+          "news": "late night entertainment show streaming ramadan",
+          "guardian": "ramadan entertainment",
+          "reddit_subs": [
+            "saudiarabia",
+            "dubai",
+            "AskMiddleEast"
+          ],
+          "reddit_query": "late night ramadan entertainment streaming"
+        },
+        "eid_shopping": {
+          "label": "Eid Shopping",
+          "news": "eid shopping fashion clothes gifts",
+          "guardian": "eid",
+          "reddit_subs": [
+            "islam",
+            "saudiarabia",
+            "dubai"
+          ],
+          "reddit_query": "eid shopping clothes gifts fashion"
+        },
+        "suhoor": {
+          "label": "Suhoor Food",
+          "news": "suhoor food recipes ramadan morning meal",
+          "guardian": "suhoor ramadan",
+          "reddit_subs": [
+            "islam",
+            "saudiarabia",
+            "Cooking"
+          ],
+          "reddit_query": "suhoor food ramadan morning meal recipes"
+        }
+      }
+    }
+  },
+  "last_updated": "2026-03-27T00:00:00Z",
+  "updated_by": "collect_v2"
+}
