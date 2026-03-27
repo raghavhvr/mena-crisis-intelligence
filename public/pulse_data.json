@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-27T06:06:44.585131+00:00",
+  "fetched_at": "2026-03-27T12:56:21.676351+00:00",
   "dates": [
     "Mar 20",
     "Mar 21",
@@ -2028,5 +2028,6 @@
     "twitch"
   ],
   "sources_failed": [],
-  "ramadan_active": true
+  "ramadan_active": true,
+  "error": "can only concatenate list (not \"float\") to list"
 }
