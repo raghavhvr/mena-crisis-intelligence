@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T06:03:46.558705+00:00",
+  "fetched_at": "2026-08-08T05:35:31.042249+00:00",
   "dates": [
     "Jul 31",
     "Aug 01",
@@ -1520,5 +1520,6 @@
     "newsapi",
     "guardian"
   ],
-  "ramadan_active": true
+  "ramadan_active": true,
+  "error": "can only concatenate list (not \"float\") to list"
 }
