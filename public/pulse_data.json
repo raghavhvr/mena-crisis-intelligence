@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-09-19T09:19:06.682426+00:00",
+  "fetched_at": "2026-09-20T09:30:34.557385+00:00",
   "dates": [
-    "Jul 31",
-    "Aug 01",
-    "Aug 02",
-    "Aug 03",
-    "Aug 04",
-    "Aug 05",
-    "Aug 06",
-    "Aug 07"
+    "Sep 13",
+    "Sep 14",
+    "Sep 15",
+    "Sep 16",
+    "Sep 17",
+    "Sep 18",
+    "Sep 19",
+    "Sep 20"
   ],
   "categories": {
     "escapism": {
@@ -1430,82 +1430,76 @@
     },
     "rss_trends": {
       "UAE": {
-        "sport_entertainment_pct": 10,
+        "sport_entertainment_pct": 0,
         "crisis_pct": 0,
         "top_topics": [
-          "saudi arabia",
-          "ind vs sl",
-          "mitsubishi pajero",
-          "explosion",
-          "toronto open",
-          "\u0623\u0646\u0635\u0627\u0631 \u0627\u0644\u0644\u0647 \u0627\u0644\u062d\u0648\u062b\u064a\u0648\u0646",
-          "apple iphone 18 pro max",
-          "chris hansen",
-          "united states immigration authority now rejects incomplete benefit applications immediately",
-          "\u0d24\u0d4a\u0d34\u0d3f\u0d32\u0d4d"
+          "riyadh airport",
+          "ufc",
+          "artificial intelligence news",
+          "after",
+          "ability",
+          "pl",
+          "arsenal",
+          "gpt",
+          "\u0645\u0628\u0627\u0631\u064a\u0627\u062a \u0627\u0644\u064a\u0648\u0645",
+          "\u0634\u0627\u062a \u062c\u064a \u0628\u064a \u062a\u064a"
         ]
       },
       "KSA": {
         "sport_entertainment_pct": 0,
         "crisis_pct": 0,
         "top_topics": [
-          "apple iphone 18 pro max",
-          "sydney",
-          "\u0628\u0627\u0643\u0633\u062a\u0627\u0646",
-          "\u0645\u0627\u0643",
-          "\u0627\u0644\u0645\u0630\u064a\u0639\u0629 \u0633\u0627\u0631\u0629 \u062e\u0644\u064a\u0641\u0629",
-          "\u0645\u0648\u0633\u0627\u062f",
-          "forecast",
-          "\u062e\u0631\u0641",
-          "mojtaba khamenei",
-          "mohammed shami"
+          "riyadh saudi arabia",
+          "\u0645\u062d\u0645\u062f \u0635\u0644\u0627\u062d \u0637\u0631\u0627\u0628\u0632\u0648\u0646 \u0633\u0628\u0648\u0631",
+          "\u062a\u062f\u0627\u0648\u0644",
+          "\u0642\u0648\u0649",
+          "\u0639\u0631\u0648\u0636 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u0648\u0637\u0646\u064a",
+          "saudi national day",
+          "tiktok",
+          "\u0633\u0644\u0627\u0641 \u0641\u0648\u0627\u062e\u0631\u062c\u064a",
+          "\u0642\u0631\u0627\u0646",
+          "\u0633\u0628\u0642"
         ]
       },
       "Kuwait": {
         "sport_entertainment_pct": 0,
         "crisis_pct": 0,
         "top_topics": [
-          "tiktok",
-          "\u062a\u0647\u0631\u064a\u0628",
-          "\u063a\u0631\u0627\u0645\u0629",
-          "\u0631\u0648\u062f\u0631\u064a",
-          "\u0645\u062f\u0631\u0633\u0629",
-          "\u0642\u0627\u0646\u0648\u0646",
-          "sheikh hasina",
-          "\u0d12\u0d2e\u0d3e\u0d28\u0d4d"
+          "google",
+          "\u0645\u0628\u0627\u0631\u064a\u0627\u062a \u0627\u0644\u064a\u0648\u0645"
         ]
       },
       "Qatar": {
         "sport_entertainment_pct": 0,
         "crisis_pct": 0,
         "top_topics": [
-          "sheikh hasina",
-          "\u0645\u062f\u0631\u0633\u0629"
+          "barcelona",
+          "\u062a\u0631\u062c\u0645\u0629"
         ]
       }
     },
     "twitch": {
-      "total_viewers": 190528,
+      "total_viewers": 229239,
       "top_games": [
         {
           "name": "Just Chatting",
-          "viewers": 58889
+          "viewers": 65511
         },
         {
-          "name": "Escape from Tarkov",
-          "viewers": 57964
+          "name": "Dota 2",
+          "viewers": 33850
         },
         {
-          "name": "Big Walk",
-          "viewers": 23286
+          "name": "League of Legends",
+          "viewers": 33570
         },
         {
-          "name": "Chained Together",
-          "viewers": 11016
+          "name": "World of Warcraft",
+          "viewers": 25069
         },
         {
-          "name": "Funnel Runners",
-          "viewers": 8154
+          "name": "Apex Legends",
+          "viewers": 13096
         }
       ]
     }
@@ -1520,6 +1514,5 @@
     "newsapi",
     "guardian"
   ],
-  "ramadan_active": true,
-  "error": "can only concatenate list (not \"float\") to list"
+  "ramadan_active": true
 }
